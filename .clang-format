@@ -14,6 +14,8 @@ AlwaysBreakAfterDefinitionReturnType: None
 AlwaysBreakAfterReturnType: None
 AllowAllParametersOfDeclarationOnNextLine: false
 
+PointerAlignment: Left
+
 IndentCaseLabels: false
 IndentCaseBlocks: true
 BraceWrapping:
@@ -35,7 +37,8 @@ SpaceAfterTemplateKeyword: true
 
 BreakConstructorInitializers: AfterColon
 ConstructorInitializerIndentWidth: 2
-AllowAllConstructorInitializersOnNextLine: false
+PackConstructorInitializers: Never
+SpaceBeforeCtorInitializerColon: false
 
 LambdaBodyIndentation: Signature
 AlignOperands: true
